@@ -76,9 +76,10 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-h1 {
+h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    color: black;
 }
 
 button {
@@ -123,7 +124,7 @@ button:hover {
         function getLocation() {
             document.getElementById('getLocationButton').classList.add('hidden');
             document.getElementById('countdown').classList.remove('hidden');
-            let countdown = 3;
+            let countdown = 4;
             document.getElementById('countdownTimer').innerText = countdown;
             
             const interval = setInterval(() => {
